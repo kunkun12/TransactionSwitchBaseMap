@@ -1,27 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="http://js.arcgis.com/3.7/js/esri/css/esri.css">
-    <style>
-        html, body, #map {
-            width: 100%;
-            height: 100%;
-            margin: 0;
-            padding: 0;
-            overflow-y:hidden;
-            background-color: #DBD7D0;;
-            font-family: "Trebuchet MS";
-        }
-    </style>
-    <title>
-    </title>
-</head>
-<body>
-<div id="map">
-<button id="switchbasemap" style="position: absolute;z-index: 1;left: 100px;top: 20px;height: 30px;">切换底图</button>
-</div>
-</body>
-<script src="http://js.arcgis.com/3.7/"></script>
-<script src="app.js"></script>
-</html>
+TransactionSwitchBaseMap
+========================
+
+在地图切换时添加过度效果
